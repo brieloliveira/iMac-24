@@ -399,6 +399,7 @@ header nav a:hover {
 
 .banner-link {
     display: flex;
+    align-items: center;
 }
 
 .banner-link a {
@@ -406,12 +407,31 @@ header nav a:hover {
     color: #FFF;
 }
 
-.icon2 {
-    width: 5px;
-    padding-left: 7px;
-    margin-right: 40px;
+.banner-link a:hover {
+    text-decoration: underline;
 }
 
-.ignore {
-    height: 1000px;
+.icon3 {
+    width: 2px;
+    margin-left: -5px;
+}
+
+.bottom-banners {
+    display: flex;
+    justify-content: center;
+}
+
+.bb-1 {
+    display: flex;
+}
+
+.sb-1, .sb-2 {
+    width: 705px;
+    height: 610px;
+    background-color: #ccc;
+    margin-top: 30px;
+}
+
+.sb-1 {
+    margin-right: 30px;
 }
